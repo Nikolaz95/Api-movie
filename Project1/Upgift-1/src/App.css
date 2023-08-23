@@ -1,0 +1,80 @@
+.header{
+  background-color: rgb(62, 158, 159);
+  text-align: center;
+}
+
+li {
+  display:inline;
+  margin-right: 20px;
+  padding-right: 50px;
+  
+}
+
+.datas-lista{
+  display: flex;
+  justify-content: start;
+}
+
+
+.form{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+
+ #footer {
+  background-color: rgb(62, 158, 159);
+  text-align: center;
+ }
+
+
+ .forms {
+  border-radius: 50%;
+ }
+
+
+ .datas-konteiner{
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  background-color:rgb(64, 63, 41);
+  text-align: center;
+ }
+
+ .item {
+  color: antiquewhite;
+  float: left;
+ }
+
+.gridContent{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: auto;
+  background: rgb(64, 63, 41);
+
+}
+
+.gridContent .form  input[type="text"] {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.gridContent .form {
+  position: fixe;
+  display: flex;
+  left: 0px;
+  width: -webkit-fill-available;
+  text-align: center;
+  margin-bottom: 30px !important;
+  top: 0px;
+  z-index: 3333;
+}
+
+.gridContent {
+  padding-top: 0px;
+}
